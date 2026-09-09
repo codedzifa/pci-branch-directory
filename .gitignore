@@ -1,0 +1,9 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+node_modules/
+
+# Local backup of pre-upgrade files (not part of the site)
+_backup_original/

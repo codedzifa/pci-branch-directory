@@ -1,0 +1,94 @@
+region,branch_name,address,email,phone,pastor,status,latitude,longitude,year_founded,photo_url
+ASHANTI,FOASE BRANCH,KUMASI FOASE,missions.admin@perezchapel.org,024-350-0626,Elder Kingsford,growing,6.6369178,-1.7552714,1987,photos/PATASI.JPG
+ASHANTI,EJURA BRANCH ,EJURA,missions.admin@perezchapel.org,024-350-0626,Ps Desmond Ahorsu,active,7.3724471,-1.3669435,1987,photos/EJURA.JPG
+ASHANTI,OFFINSO,"KUMASI, OFFINSO",missions.admin@perezchapel.org,024-350-0626,Elder Gideon Kwarteng,growing,6.9387268,-1.6757925,1987,photos/OFFINSO.JPG
+ASHANTI,OFFINSO ,OFFINSO ,missions.admin@perezchapel.org,024-350-0626,Elder Gideon Kwarteng,growing,6.90938,-1.6794844,1987,photos/OFFINSO.JPG
+ASHANTI,ADARKO JACHIE LAND,ADARKO JACHIE ,missions.admin@perezchapel.org,024-350-0626,Land,growing,6.7275319,-1.4987687,1987,photos/ADARKO JARCHI.JPG
+ASHANTI,OBUASI KONKA,OBUASI,missions.admin@perezchapel.org,024-350-0626,Ps. Patrick Osom,active,6.210664,-1.6888012,1987,photos/OBUASI_KONKA.JPG
+ASHANTI,KONONGO BRANCH,KONONGO,missions.admin@perezchapel.org,024-350-0626,Rev. Benjamin Quarshie,active,6.627644,-1.2141823,1987,photos/KONONGO.JPG
+ASHANTI,OBUASI TUTUKA,OBUASI TUTUKA,missions.admin@perezchapel.org,024-350-0626,Rev. Atubiga,active,6.1895688,-1.6512938,1987,photos/OBUASI_TUTUKA.JPG
+ASHANTI,KONONGO BRANCH,KUMASI KONONGO,missions.admin@perezchapel.org,024-350-0626,Rev. Benjamin Kwaku Kwakye,active,6.6275787,-1.2141158,1987,photos/KONONGO.JPG
+ASHANTI,PATASI BRANCH,KUMASI OHWENASI,missions.admin@perezchapel.org,024-350-0626,Rev. Edward Makarious,active,6.6881025,-1.6669101,1987,photos/OHWIMASAE.JPG
+ASHANTI,AGOGO ABUAKWA LAND,AGOGO ABUAKWA,missions.admin@perezchapel.org,024-350-0626,Rev. Honour,growing,6.6812431,-1.7519239,1987,photos/AGOGO ABUAKWA.JPG
+ASHANTI,ABUAKWA ,KUMASI PATASI,missions.admin@perezchapel.org,024-350-0626,Rev. Issac Honour ,active,6.6896245,-1.7060208,1987,photos/ABUAKWA.JPG
+ASHANTI,MAMPONG BRANCH ,MAMPONG,missions.admin@perezchapel.org,024-350-0626,Rev. Noah Arhinful,growing,7.0828207,-1.4114676,1987,photos/MAMPONG LAND.JPG
+ASHANTI,MAMPONG BRANCH ,MAMPONG,missions.admin@perezchapel.org,024-350-0626,Rev. Nothing Arhinful,active,7.0637436,-1.3975399,1987,photos/MAMPONG.JPG
+BONO,MIM BRANCH,MIM,missions.admin@perezchapel.org,024-350-0626,Elder Richard Darko,growing,6.9164788,-2.5742205,1987,photos/MIM.JPG
+BONO,SUNYANI BRANCH ,SUNYANI ,missions.admin@perezchapel.org,024-350-0626,Rev. Emmanuel Wozuame ,active,7.330724,-2.3147116,1987,photos/SUNYANI.JPG
+BONO EAST,TECHIMAN BRANCH,TECHIMAN,missions.admin@perezchapel.org,024-350-0626,Rev Ebenbenny Graceman,growing,7.586965,-1.9339891,1987,photos/TECHIMAN.JPG
+BONO EAST,PARAMBO SAWABA NO. 1,PARAMBO SAWABA,missions.admin@perezchapel.org,024-350-0626,Ps. Agbesi Worwi,growing,8.1217204,-0.7845691,1987,photos/PARAMBO SAWABA.JPG
+BONO EAST,YEJI- FANTE AKURA,YEJI-FANTE AKURA,missions.admin@perezchapel.org,024-350-0626,Eld. Emmanuel Omane,active,8.2347934,-0.6531485,1987,photos/FANTE AKURA.JPG
+BONO EAST,YEJI FANTE EKURA NO.2,YEJI,missions.admin@perezchapel.org,024-350-0626,Elder. Emmanuel,growing,8.2343796,-0.6561396,1987,photos/FANTE AKURA.JPG
+BONO EAST,TODZI BRANCH,YEJI,missions.admin@perezchapel.org,024-350-0626,Elder Emmanuel Lotsu,needs-support,8.0387971,-0.8153642,1987,
+BONO EAST,BANKAMA NSWADO,YEJI,missions.admin@perezchapel.org,024-350-0626,Elder Emmanuel Logo,active,8.0894477,-0.7884886,1987,photos/BANKAMA NSUOANO.JPG
+BONO EAST,WENCHI BRANCH ,WENCHI,missions.admin@perezchapel.org,024-350-0626,N/A,needs-support,7.739735,-2.109114,1987,photos/WENCHI.JPG
+BONO EAST,ADAKOPE,ADAKOPE YEJI,missions.admin@perezchapel.org,024-350-0626,Rev. ,growing,8.2298035,-0.5232208,1987,photos/ADA_KOPE.JPG
+BONO EAST,KPEVEME,KPEVEME,missions.admin@perezchapel.org,024-350-0626,Elder Prince Ahetovia,growing,8.0673141,-0.7690847,1987,photos/KPEVEME.JPG
+BONO EAST,KOBRE NO. 3,YEJI,missions.admin@perezchapel.org,024-350-0626,Elder William Ahoto,active,8.1111923,-0.7118805,1987,photos/KOBRE NO. 3.JPG
+BONO EAST,ACCRA TOWN,YEJI,missions.admin@perezchapel.org,024-350-0626,N/A,growing,8.311236,-0.7234656,1987,photos/ACCRA TOWN.JPG
+BONO EAST,SOBOKOPE BRANCH ,YEJI - SOBOKOPE,missions.admin@perezchapel.org,024-350-0626,Rev Cornelius Fiawoyife,growing,8.2874089,-0.5855164,1987,photos/SOBOKPE.JPG
+CENTRAL ,BUDUMBURAM BRANCH,BUDUMBURAM,missions.admin@perezchapel.org,024-350-0626,Elder Gifty Philips ,active,5.527018,-0.4790073,1987,photos/BUDUMBURAM.jpg
+CENTRAL ,OKLU NKWANTA BRANCH ,OKLU NKWANTA,missions.admin@perezchapel.org,024-350-0626,N/A,growing,5.6067989,-0.4486577,1987,photos/OKLU_NKWANTA.jpg
+CENTRAL ,AWUTU BREKU BRANCH ,AUTUMN BREKU,missions.admin@perezchapel.org,024-350-0626,Ps Seth Adzola,growing,5.5053321,-0.5201785,1987,photos/BEREKU.jpg
+CENTRAL ,FETTER BRANCH ,FETTEH,missions.admin@perezchapel.org,024-350-0626,Rev. Fred Larye,growing,5.5121086,-0.4981823,1987,photos/GOMOA_FETTEH.jpg
+CENTRAL ,MILLENNIUM KAKRABA,KASOA MILLIENIUM KAKRABA,missions.admin@perezchapel.org,024-350-0626,Rev. Kpodo,active,5.5013892,-0.4145383,1987,photos/KAKRABA_MILLENIUM_CITY.jpg
+EASTERN,KWAHU TAFO BRANCH ,KWAHU NEW TAFO,missions.admin@perezchapel.org,024-350-0626,Deac Prince Boamah,needs-support,6.6539997,-0.6616155,1987,photos/KWAHU_TAFO.JPG
+EASTERN,KYEBI BRANCH ,KYEBI,missions.admin@perezchapel.org,024-350-0626,Elder Daniel Ewur,growing,6.162652,-0.5583031,1987,photos/KYEBI.jpg
+EASTERN,NSUTA BRANCH NKAWKAW,NSUTA ,missions.admin@perezchapel.org,024-350-0626,Elder William Antwi,active,6.5617641,-0.7762844,1987,photos/KWAHU NSUTA.JPG
+EASTERN,AKYEM TACHIMAN BRANCH ,AKYEM TACHIMAN,missions.admin@perezchapel.org,024-350-0626,N/A,active,6.1581438,-0.6691179,1987,photos/AKYEM_TACHIMAN.JPG
+EASTERN,ADUKROM BRANCH,ADUKROM,missions.admin@perezchapel.org,024-350-0626,N/A,needs-support,6.0156409,-0.0835714,1987,photos/ADUKROM.jpg
+EASTERN,MEPOM BRANCH,MEPOM,missions.admin@perezchapel.org,024-350-0626,Pastor Emmanuel Denteh,needs-support,5.7962261,-0.5990706,1987,photos/MEPOM.jpg
+EASTERN,ABEKWASE BRANCH ,ABEKWASE ,missions.admin@perezchapel.org,024-350-0626,Ps Abraham Tetteh,active,6.4229701,-0.62599,1987,photos/KWAHU_ABEKWASE.JPG
+EASTERN,ABETIFI BRANCH,ABETIFI,missions.admin@perezchapel.org,024-350-0626,Ps Francis Mensah,growing,6.6733728,-0.7473695,1987,photos/KWAHU_ABETIFI.JPG
+EASTERN,AKYEM ANYINAM BRANCH ,AKYEM ANYINAM,missions.admin@perezchapel.org,024-350-0626,Rev. Abraham Tetteh ,needs-support,6.3792971,-0.5480189,1987,photos/AKYEM_ANYINAM.jpg
+EASTERN,MPRAESO BRANCH,MPRAESO MAIN,missions.admin@perezchapel.org,024-350-0626,Rev. Baah ,needs-support,6.5942602,-0.7380501,1987,photos/MPRAESO.JPG
+EASTERN,NEW TAFO BRANCH ,NEW TAFO,missions.admin@perezchapel.org,024-350-0626,Rev. David Larbi,needs-support,6.2318412,-0.3738296,1987,photos/KOFORIDUA_NEW_TAFO.jpg
+EASTERN,ASAMANKESE BRANCH,ASAMANKESE,missions.admin@perezchapel.org,024-350-0626,Rev. Doler ,active,5.8574902,-0.67559,1987,photos/ASAMANKESE.jpg
+EASTERN,NSAWAM BRANCH,NSAWAM,missions.admin@perezchapel.org,024-350-0626,Rev. Edwin Dafeamekpor,growing,5.8017116,-0.3520275,1987,photos/NSAWAM.jpg
+EASTERN,AKOSOMBO BRANCH,AKOSOMBO,missions.admin@perezchapel.org,024-350-0626,Rev. Emmanuel Abedi,growing,6.2623367,0.0323601,1987,photos/AKOSOMBO.jpg
+EASTERN,BEPONG BRANCH ,BEPONG ,missions.admin@perezchapel.org,024-350-0626,Rev. Emmanuel Adotey Segoe,growing,6.6018846,-0.7240484,1987,photos/KWAHU_BEPONG.JPG
+EASTERN,SUHUM,SUHUM,missions.admin@perezchapel.org,024-350-0626,Rev. Enoch Addo,needs-support,6.0376936,-0.4489553,1987,photos/SUHUM.jpg
+EASTERN,SOMANYA BRANCH ,SOMANYA,missions.admin@perezchapel.org,024-350-0626,Rev. Nathan Sosoo,growing,6.0948567,-0.0260848,1987,photos/SOMANYA.jpg
+EASTERN,AKOM ODA,AKIM ODA ,missions.admin@perezchapel.org,024-350-0626,Rev. Rnoch Van Ayisi,active,5.9231951,-0.9862208,1987,photos/ODA.jpg
+GREATER ACCRA ,PEREZ DOME ,DZORWULU ACCRA,missions.admin@perezchapel.org,024-350-0626,Archbishop Charles Agyinasare,active,5.6071911,-0.2085138,1987,
+GREATER ACCRA ,OYARIFA EAST,OYARIFA EAST ,missions.admin@perezchapel.org,024-350-0626,Elder Dr Felicia Deheer,needs-support,5.7448459,-0.1695938,1987,photos/OYARIFA_EAST.jpg
+GREATER ACCRA ,DODOWA WOMEN'S FELLOWSHIP ,DODOWA WOMEN'S FELLOWSHIP ,missions.admin@perezchapel.org,024-350-0626,N/A,needs-support,5.898058,-0.0673221,1987,
+GREATER ACCRA ,OYIBI BRANCH ,OYIBI,missions.admin@perezchapel.org,024-350-0626,N/A,growing,5.8145273,-0.1169234,1987,photos/OYIBI_LAND.jpg
+GREATER ACCRA ,DODOWA,DODOWA,missions.admin@perezchapel.org,024-350-0626,N/A,growing,5.8734343,-0.0990812,1987,photos/DODOWA_LAND.jpg
+GREATER ACCRA ,DANFA BRANCH ,DANFA,missions.admin@perezchapel.org,024-350-0626,Ps Frederick Akrong,growing,5.7927873,-0.1538004,1987,photos/DANFA.jpg
+GREATER ACCRA ,ABLEKUMA OLEBU BRANCH ,ABLEKUMA OLEBU,missions.admin@perezchapel.org,024-350-0626,Rev. Albert Kamara,needs-support,5.642932,-0.3069727,1987,photos/ABLUKUMA OLEBU.jpg
+GREATER ACCRA ,PANTANG BRANCH ,PANTANG,missions.admin@perezchapel.org,024-350-0626,Rev. Alex Korsah,growing,5.7396221,-0.1828602,1987,photos/PANTANG.jpg
+GREATER ACCRA ,AFIAMAN BRANCH ,POKUASE AFIAMAN,missions.admin@perezchapel.org,024-350-0626,Rev. Amos Darko,growing,5.704406,-0.2851248,1987,
+GREATER ACCRA ,ADENTA BRANCH,ADENTA,missions.admin@perezchapel.org,024-350-0626,Rev. Benjamin Boadi,active,5.7006166,-0.1608535,1987,photos/ADENTA.jpg
+GREATER ACCRA ,ABLEKUMA BRANCH ,ABLEKUMA TWIBLEOO,missions.admin@perezchapel.org,024-350-0626,Rev. Bright Nutakor,growing,5.6377227,-0.3387371,1987,photos/ABLEKUMA_TWIBLEOOO.jpg
+GREATER ACCRA ,DODOWA MAIN,DODOWA MAIN ,missions.admin@perezchapel.org,024-350-0626,Rev. Daniel Degbor,growing,5.891754,-0.088929,1987,photos/DODOWA_MAIN.jpg
+GREATER ACCRA ,GHANA FLAG BRANCH ,OYARIFA GHANA FLAG ,missions.admin@perezchapel.org,024-350-0626,Rev. Ernest Zong,needs-support,5.7647404,-0.1795311,1987,photos/GHANA FLAG.jpg
+GREATER ACCRA ,FRAFRAHA BRANCH ,FRAFRAHA,missions.admin@perezchapel.org,024-350-0626,Rev. Isaac Gomina,growing,5.7344192,-0.1481242,1987,photos/FRAFRAHA.jpg
+GREATER ACCRA ,TEIMAN BRANCH,TEIMAN ,missions.admin@perezchapel.org,024-350-0626,Rev. Michael Sosoo,growing,5.7504698,-0.1823256,1987,photos/TEIMAN.jpg
+GREATER ACCRA ,DODOWA SAFINA,DODOWA SAFINA,missions.admin@perezchapel.org,024-350-0626,Rev. Prince Asare,needs-support,5.903446,-0.0801561,1987,photos/DODOWA_SAFINA.jpg
+NORTH EAST  ,NALERIGU,NALERIGU,missions.admin@perezchapel.org,024-350-0626,Rev. Adam Cletus,active,10.526465,-0.3683717,1987,photos/NALERIGU.JPG
+NORTH EAST  ,WALEWALE,WALEWALE,missions.admin@perezchapel.org,024-350-0626,Rev. Paul Tia,active,10.3362053,-0.8012264,1987,photos/WALWALE.JPG
+NORTHERN ,TAMALE CENTRAL,TAMALE CENTRAL ,missions.admin@perezchapel.org,024-350-0626,Bishop Prosper Aghyenyo,growing,9.4314898,-0.8505367,1987,photos/TAMALE CENTRAL LAND.JPG
+NORTHERN ,UDS LAND,TAMALE UDS,missions.admin@perezchapel.org,024-350-0626,Bishop Prosper Aghyenyo,growing,9.37176,-0.8910333,1987,photos/UDS LAND.JPG
+NORTHERN ,TAMALE CENTRAL,TAMALE,missions.admin@perezchapel.org,024-350-0626,Bishop Prosper Aghyenyo,active,9.4080628,-0.8476519,1987,photos/TAMALE CENTRAL.JPG
+NORTHERN ,KAMINA,TAMALE,missions.admin@perezchapel.org,024-350-0626,Elder Baaba,growing,9.464915,-0.84533,1987,photos/KAMINA.JPG
+NORTHERN ,PONG TAMALE,PONG TAMALE,missions.admin@perezchapel.org,024-350-0626,Elder Fred Lem,growing,9.6848434,-0.8314756,1987,photos/PONG TAMALE.JPG
+NORTHERN ,TAMALE CENTRAL ,TAMALE CENTRAL ,missions.admin@perezchapel.org,024-350-0626,Land,growing,9.446825,-0.8383267,1987,photos/TAMALE CENTRAL 2.JPG
+NORTHERN ,BULPIELA,TAMALE,missions.admin@perezchapel.org,024-350-0626,N/A,active,9.38425,-0.8402583,1987,photos/BULPIELA.JPG
+NORTHERN ,SAVELUGU,SAVELUGU,missions.admin@perezchapel.org,024-350-0626,N/A,growing,9.6037012,-0.8289329,1987,photos/SAVELIGU.JPG
+NORTHERN ,ADOPTED CHURCH,YAPEI,missions.admin@perezchapel.org,024-350-0626,N/A,growing,9.1495538,-1.1474791,1987,photos/YARPEI.JPG
+NORTHERN ,SNNIT/FUO,TAMALE ,missions.admin@perezchapel.org,024-350-0626,Ps. Abdul Aziz,active,9.422807,-0.8180196,1987,photos/SSNIT-FUO.jpg
+NORTHERN ,KUKUO TEMPLE,TAMALE,missions.admin@perezchapel.org,024-350-0626,Rev. Joshua Mogre,active,9.3967167,-0.8255667,1987,photos/KUKUO.JPG
+NORTHERN ,TAMALE MILE 9,TAMALE,missions.admin@perezchapel.org,024-350-0626,Rev. Morris,growing,9.5325546,-0.8348441,1987,photos/MILE 9.JPG
+NORTHERN ,GAMBAGA,GAMBAGA,missions.admin@perezchapel.org,024-350-0626,Rev. Paul Wulgu,active,10.5364917,-0.44916,1987,photos/GAMBAGA.JPG
+SAVANNAH  ,DAMANGO ,DAMANGO,missions.admin@perezchapel.org,024-350-0626,N/A,needs-support,9.0850067,-1.8205548,1987,photos/DAMONGO  LAND MAIN.JPG
+SAVANNAH  ,DAMANGO ,DAMANGO,missions.admin@perezchapel.org,024-350-0626,Rev. Agbefu,growing,9.0739537,-1.8125788,1987,photos/DAMONGO.jpg
+UPPER WEST,BEAR LAND,WA,missions.admin@perezchapel.org,024-350-0626,N/A,growing,9.9760362,-2.4662,1987,photos/WA LAND .JPG
+UPPER WEST,WA,WA,missions.admin@perezchapel.org,024-350-0626,Rev. Paul Wulgu,active,10.0304644,-2.512726,1987,photos/WA.JPG
+VOLTA,HO BRANCH ,HO,missions.admin@perezchapel.org,024-350-0626,Bishop Sebastian ,active,6.6089759,0.4704881,1987,photos/HO.jpg
+VOLTA,ADIDOME BRANCH,ADIDOME,missions.admin@perezchapel.org,024-350-0626,Elder Michael Mintah,active,6.0681175,0.5046353,1987,photos/ADIDOME.jpg
+VOLTA,AGBOZUME,AGBOZUME,missions.admin@perezchapel.org,024-350-0626,Elder. Emmanuel ,needs-support,6.0869665,1.060957,1987,photos/AGBOZUME.jpg
+VOLTA,TEGBI BRANCH ,TEGBI,missions.admin@perezchapel.org,024-350-0626,Rev. Kennedy Kwao,growing,5.8638187,0.9795501,1987,photos/TEGBI.jpg
+VOLTA,ANLOGA BRANCH,ANLOGA KPOTORGBE,missions.admin@perezchapel.org,024-350-0626,Rev. Moses Abotsi,active,5.7959603,0.9102013,1987,photos/ANLOGA.jpg
+VOLTA,AFLAO BRANCH ,AFLAO,missions.admin@perezchapel.org,024-350-0626,Rev. Prosper Agbodza,growing,6.1181266,1.1709299,1987,photos/AFLAO.jpg
+VOLTA,SOGAKOPE BRANCH ,SOGAKOPE,missions.admin@perezchapel.org,024-350-0626,Rev. Victoria ,growing,6.0047393,0.5942211,1987,photos/SOGAKOPE.jpg

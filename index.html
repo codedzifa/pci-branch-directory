@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b2545" />
+
+  <title>Find a Perez Chapel International Branch | PCI Ghana</title>
+  <meta name="description" content="Find a Perez Chapel International (PCI) branch near you in Ghana. Search 90+ branches by branch name, pastor, city or region, view them on a map, and get directions." />
+  <meta name="keywords" content="Perez Chapel International, PCI Ghana, church branch, find a church, Perez Chapel branches, Charles Agyinasare, Accra church, Ghana churches" />
+  <link rel="canonical" href="https://pcibranches.netlify.app/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Perez Chapel International — Ghana Branch Directory" />
+  <meta property="og:title" content="Find a Perez Chapel International Branch | PCI Ghana" />
+  <meta property="og:description" content="Search 90+ PCI branches across Ghana by branch, pastor, city or region. View on a map and get directions." />
+  <meta property="og:url" content="https://pcibranches.netlify.app/" />
+  <meta property="og:locale" content="en_GH" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Find a Perez Chapel International Branch | PCI Ghana" />
+  <meta name="twitter:description" content="Search 90+ PCI branches across Ghana by branch, pastor, city or region." />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Perez Chapel International",
+    "alternateName": "PCI",
+    "url": "https://pcibranches.netlify.app/",
+    "email": "missions.admin@perezchapel.org",
+    "telephone": "+233-24-350-0626",
+    "areaServed": "GH",
+    "description": "Perez Chapel International Ghana branch directory."
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#results-region">Skip to branch results</a>
+
+  <!-- ============================ HEADER / NAV ============================ -->
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Perez Chapel International — Ghana, home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="30" height="30">
+            <path d="M16 2 3 8v6c0 8 5.4 13.6 13 16 7.6-2.4 13-8 13-16V8L16 2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M16 9v10M11 13h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>Perez Chapel International</strong>
+          <em>Ghana Branch Directory</em>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#top" class="nav-link">Home</a>
+        <a href="#results-region" class="nav-link">Find a Branch</a>
+        <a href="#regions" class="nav-link">Regions</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#top" class="nav-link">Home</a>
+      <a href="#results-region" class="nav-link">Find a Branch</a>
+      <a href="#regions" class="nav-link">Regions</a>
+      <a href="#about" class="nav-link">About</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============================ HERO ============================ -->
+    <section class="hero" aria-labelledby="heroHeading">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Perez Chapel International · Ghana</p>
+        <h1 id="heroHeading">Find a Perez Chapel International Branch</h1>
+        <p class="hero-sub">
+          Search across every PCI branch in Ghana by branch name, pastor, city, or region —
+          then get directions, call, or share in a tap.
+        </p>
+
+        <!-- SearchBar -->
+        <div class="searchbar-shell">
+          <form class="searchbar" role="search" id="searchForm" autocomplete="off">
+            <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-3.2-3.2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            <input
+              type="text"
+              id="search"
+              name="search"
+              class="search-input"
+              placeholder="Search by branch, pastor, city or location…"
+              aria-label="Search by branch, pastor, city or location"
+              aria-describedby="search-help"
+              aria-expanded="false"
+              aria-controls="suggestions"
+              aria-autocomplete="list"
+              role="combobox"
+            />
+            <button type="button" class="search-clear" id="searchClear" aria-label="Clear search" hidden>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </button>
+            <ul class="suggestions" id="suggestions" role="listbox" aria-label="Search suggestions" hidden></ul>
+          </form>
+          <button class="btn-near" id="nearMeBtn" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.3-7-11a7 7 0 1 1 14 0c0 4.7-7 11-7 11Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" fill="currentColor"/></svg>
+            <span>Find Branches Near Me</span>
+          </button>
+        </div>
+        <p class="search-help" id="search-help">Results update as you type. Try “Accra”, “Tamale”, or a pastor’s name.</p>
+      </div>
+    </section>
+
+    <!-- ============================ STATS ============================ -->
+    <section class="stats" aria-label="Directory statistics">
+      <div class="wrap stats-grid" id="statsGrid">
+        <div class="stat"><span class="stat-num" data-count="0" id="statBranches">0</span><span class="stat-label">Branches</span></div>
+        <div class="stat"><span class="stat-num" data-count="0" id="statRegions">0</span><span class="stat-label">Regions</span></div>
+        <div class="stat"><span class="stat-num" data-count="0" id="statPastors">0</span><span class="stat-label">Pastors &amp; Leaders</span></div>
+        <div class="stat"><span class="stat-num" data-count="0" id="statCities">0</span><span class="stat-label">Cities &amp; Towns</span></div>
+      </div>
+    </section>
+
+    <!-- ============================ REGION EXPLORER ============================ -->
+    <section class="section" id="regions" aria-labelledby="regionsHeading">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="regionsHeading">Explore by Region</h2>
+          <p>Tap a region to instantly filter the directory.</p>
+        </div>
+        <div class="region-grid" id="regionGrid" role="list"></div>
+      </div>
+    </section>
+
+    <!-- ============================ FILTERS + RESULTS ============================ -->
+    <section class="section directory" id="directory" aria-labelledby="dirHeading">
+      <div class="wrap">
+        <h2 id="dirHeading" class="sr-only">Branch directory</h2>
+
+        <!-- FilterPanel -->
+        <div class="filterbar" role="region" aria-label="Filters">
+          <div class="filter-fields">
+            <label class="field">
+              <span>Region</span>
+              <select id="region-filter"><option value="">All regions</option></select>
+            </label>
+            <label class="field">
+              <span>Branch</span>
+              <select id="branch-filter"><option value="">All branches</option></select>
+            </label>
+            <label class="field">
+              <span>Pastor / Leader</span>
+              <select id="pastor-filter"><option value="">All pastors</option></select>
+            </label>
+            <label class="field">
+              <span>City / Location</span>
+              <select id="city-filter"><option value="">All locations</option></select>
+            </label>
+            <label class="field">
+              <span>Status</span>
+              <select id="status-filter">
+                <option value="">All statuses</option>
+                <option value="active">Active</option>
+                <option value="growing">Growing</option>
+                <option value="needs-support">Needs support</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <!-- FilterChips -->
+        <div class="chips-row" id="chipsRow" hidden>
+          <div class="chips" id="chips" aria-live="polite"></div>
+          <button class="chip-clear" id="clearAll" type="button">Clear all filters</button>
+        </div>
+
+        <!-- Results header + view/sort controls -->
+        <div class="results-head" id="results-region">
+          <div class="results-count">
+            <strong id="resultsCount">0</strong>
+            <span id="resultsCountLabel">Branches Found</span>
+          </div>
+          <div class="results-tools">
+            <label class="sort-field">
+              <span class="sr-only">Sort results</span>
+              <select id="sort-select" aria-label="Sort results">
+                <option value="relevance">Sort: Relevance</option>
+                <option value="az">Sort: A–Z</option>
+                <option value="region">Sort: Region</option>
+                <option value="nearest" disabled>Sort: Nearest</option>
+              </select>
+            </label>
+            <div class="view-toggle" role="tablist" aria-label="View mode">
+              <button role="tab" id="tabList" aria-selected="true" class="vt-btn is-active" data-view="list">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                List
+              </button>
+              <button role="tab" id="tabMap" aria-selected="false" class="vt-btn" data-view="map">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 4v14M15 6v14" stroke="currentColor" stroke-width="2"/></svg>
+                Map
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- BranchGrid (List view) -->
+        <div class="view view-list" id="listView">
+          <div class="branch-grid" id="branch-list" aria-live="polite" aria-busy="true"></div>
+          <!-- Skeleton loaders -->
+          <div class="branch-grid skeleton-grid" id="skeletonGrid" aria-hidden="true"></div>
+          <div class="load-more-wrap">
+            <button class="btn-secondary" id="loadMore" type="button" hidden>Show more branches</button>
+          </div>
+        </div>
+
+        <!-- MapView -->
+        <div class="view view-map" id="mapView" hidden>
+          <div id="map" role="application" aria-label="Map of PCI branches"></div>
+        </div>
+
+        <!-- EmptyState -->
+        <div class="empty-state" id="emptyState" hidden>
+          <svg viewBox="0 0 24 24" aria-hidden="true" class="empty-ico"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m20 20-3.5-3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          <h3 id="emptyTitle">No branches match your search</h3>
+          <p id="emptyMsg">Try searching by branch name, pastor, city or region.</p>
+          <button class="btn-primary" id="emptyClear" type="button">Clear search &amp; filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ ABOUT ============================ -->
+    <section class="section about" id="about" aria-labelledby="aboutHeading">
+      <div class="wrap about-inner">
+        <div>
+          <h2 id="aboutHeading">About this directory</h2>
+          <p>
+            This directory helps members, visitors and travellers find a Perez Chapel International
+            branch anywhere in Ghana. Search or pick a region, open a branch to see its pastor,
+            location and contact details, then get directions or call directly.
+          </p>
+          <p class="about-note">
+            Missing a branch or spotted a detail that needs updating? Reach the missions office and
+            it will be reflected here.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>Contact the Missions Office</h3>
+          <p><a href="tel:+2332435006 26" class="about-link">024&nbsp;350&nbsp;0626</a></p>
+          <p><a href="mailto:missions.admin@perezchapel.org" class="about-link">missions.admin@perezchapel.org</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="26" height="26"><path d="M16 2 3 8v6c0 8 5.4 13.6 13 16 7.6-2.4 13-8 13-16V8L16 2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M16 9v10M11 13h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </span>
+        <div>
+          <strong>Perez Chapel International</strong>
+          <p>Ghana Branch Directory — find a branch near you.</p>
+        </div>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#top">Home</a>
+        <a href="#results-region">Find a Branch</a>
+        <a href="#regions">Regions</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="footer-contact">
+        <a href="tel:+233243500626">024 350 0626</a>
+        <a href="mailto:missions.admin@perezchapel.org">missions.admin@perezchapel.org</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Perez Chapel International, Ghana. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============================ BRANCH DETAILS (drawer / bottom-sheet) ============================ -->
+  <div class="drawer-scrim" id="drawerScrim" hidden></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle" hidden tabindex="-1">
+    <button class="drawer-close" id="drawerClose" aria-label="Close branch details">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="drawer-scroll" id="drawerBody"><!-- injected --></div>
+  </aside>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
