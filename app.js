@@ -11,7 +11,7 @@
   --------------------------------------------------------- */
   const GHANA_CENTER = [7.9465, -1.0232];
   const PAGE_SIZE = 24;
-  const CONTACT_PHONE = "024-350-0626";
+  const CONTACT_PHONE = "0540 124 4196";
   const CONTACT_EMAIL = "missions.admin@perezchapel.org";
 
   const STATUS_META = {
@@ -59,9 +59,10 @@
   function telHref(phone) {
     const digits = String(phone || "").replace(/\D/g, "");
     if (!digits) return "";
-    // Ghana local 0XXXXXXXXX -> +233XXXXXXXXX
-    if (digits.length === 10 && digits.startsWith("0")) return "tel:+233" + digits.slice(1);
-    return "tel:" + (digits.startsWith("233") ? "+" + digits : digits);
+    // Ghana local 0XX… -> +233XX…
+    if (digits.startsWith("0")) return "tel:+233" + digits.slice(1);
+    if (digits.startsWith("233")) return "tel:+" + digits;
+    return "tel:" + digits;
   }
   function haversine(a, b, c, d) {
     const R = 6371, toR = (x) => (x * Math.PI) / 180;
